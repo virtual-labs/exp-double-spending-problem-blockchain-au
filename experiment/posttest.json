@@ -2,36 +2,38 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is double spending in the context of blockchain?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Sending the same cryptocurrency to two different recipients simultaneously.",
+        "b": "Validating transactions in a blockchain.",
+        "c": "The process of creating new blocks in a blockchain.",
+        "d": "Storing cryptocurrency in a hardware wallet."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In a blockchain, which entity is responsible for verifying and confirming transactions?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Miners",
+        "b": "Central Authority",
+        "c": " Validators",
+        "d": "Software Developers"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which consensus mechanism makes it computationally expensive to attempt double spending in a blockchain?",
+      "answers": {
+        "a": " Proof of Concept (PoC)",
+        "b": "Proof of Stake (PoS",
+        "c": " Proof of Work (PoW)",
+        "d": "Proof of Authority (PoA)"
       },
+
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
