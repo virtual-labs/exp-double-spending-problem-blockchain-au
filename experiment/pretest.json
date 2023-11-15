@@ -2,37 +2,39 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": " What is double spending in the context of blockchain?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A cryptocurrency that has twice the market value.",
+        "b": "The act of spending the same cryptocurrency more than once.",
+        "c": " A blockchain with two separate chains.",
+        "d": "A technique to speed up transaction processing"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "How does a blockchain system prevent double spending?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "By increasing the block size.",
+        "b": "By allowing every user to validate their own transactions.",
+        "c": "By using decentralized consensus mechanisms.",
+        "d": "By encrypting all transactions."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does the term 'immutable' mean in the context of blockchain?",
+      "answers": {
+        "a": " Easily altered or changed.",
+        "b": "Unable to be changed or modified once recorded.",
+        "c": "Subject to constant updates and revisions..",
+        "d": "Permanently deleted from the blockchain.."
+      },
+
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
