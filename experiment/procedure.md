@@ -16,7 +16,7 @@
 Read the definition to understand how double spending occurs in a centralized system.
 </p>
  <div style="text-align-center;">
- <img src="./images/1.png" alt="centralized">
+ <img src="images/1.png" alt="centralized">
  </div>
  <p>
  click the play button to starts the simulation.
@@ -29,7 +29,7 @@ Read the definition to understand how double spending occurs in a centralized sy
  </p>
 </li>
  <div style="text-align-center;">
- <img src="./images/2.png" alt="centralized">
+ <img src="images/2.png" alt="centralized">
  </div>
 <li>
 <p>
@@ -58,14 +58,14 @@ After confirming the details, click the "Send" button to initiate the transactio
 <p>
 Upon initiating the transaction, the left side three-dimensional animation initializes.The animation should display user-specific information, including the user's name, balance, and the recipient's name and balance.
  <div style="text-align-center;">
- <img src="./images/3.png" alt="centralized">
+ <img src="images/3.png" alt="centralized">
  </div>
 </p>
 </li>
 <li><p>
 Below the animation, users can view a step-by-step breakdown of how the bank processes a demand draft.Within the instruction panel, users can access a "Cancel Request" button, allowing them to observe in real-time how double spending unfolds in the context of a bank's demand draft process, providing insights into potential vulnerabilities in centralized systems.
 <div style="text-align-center;">
- <img src="./images/4.png" alt="centralized">
+ <img src="images/4.png" alt="centralized">
  </div>
 </p></li>
 
@@ -85,7 +85,7 @@ Below the animation, users can view a step-by-step breakdown of how the bank pro
 Read the definition to understand how double spending occurs in a blockchain system.
 </p>
  <div style="text-align-center;">
- <img src="./images/5.png" alt="centralized">
+ <img src="images/5.png" alt="centralized">
  </div>
  <p>
  click the play button to starts the simulation.
@@ -98,18 +98,18 @@ The four sections on the main interface, namely 3D animation, custom color, step
  
  <p><b>3D animation - </b>The 3D animation section visually illustrates to the user how double spending is prevented and managed within a blockchain system, enhancing their understanding of the technology's security features.
  <div style="text-align-center;">
- <img src="./images/6.png" alt="centralized">
+ <img src="images/6.png" alt="centralized">
  </div>
  </p>
  <p><b>Custom Color - </b>The "Custom Color" section features three input options that allow users to customize and change the colors of the blocks corresponding to the receiver, verifier, and sender, adding a personalized touch to the visualization of the transaction process.
  <div style="text-align-center;">
- <img src="./images/8.png" alt="centralized">
+ <img src="images/8.png" alt="centralized">
  </div>
  </p>
  <p><b>Steps - </b>
 The "steps" panel is designed to guide users through the intricate process of double spending in a blockchain system
  <div style="text-align-center;">
- <img src="./images/7.png" alt="centralized">
+ <img src="images/7.png" alt="centralized">
  </div>
  </p>
   <p><b>User Account - </b>
@@ -143,14 +143,14 @@ After confirming the details, click the "Send" button to initiate the transactio
 </p>
 </li>
  <div style="text-align-center;">
- <img src="./images/9.png" alt="centralized">
+ <img src="images/9.png" alt="centralized">
  </div>
  </p>
 </li>
 <p>
 Upon initiating the transaction, the left side three-dimensional animation initializes.
  <div style="text-align-center;">
- <img src="./images/10.png" alt="centralized">
+ <img src="images/10.png" alt="centralized">
  </div>
 </p>
 </li>
