@@ -8,7 +8,7 @@
 <ol>
 
 <li>
-<p>Look for the sidebar labeled "Double Spending" on the right side of the app interface </p></li>
+<p>Please refer to the right-hand section of the interface to start the simulation </p></li>
 
 <li><p>Within the "Double Spending" sidebar, you will find two options: "Centralized" and "Blockchain."</p></li>
 
