@@ -2,14 +2,13 @@
   "version": 2.0,
   "questions": [
     {
-      "question": " What is double spending in the context of blockchain?",
+      "question": "What is double spending in the context of blockchain?",
       "answers": {
         "a": "A cryptocurrency that has twice the market value.",
         "b": "The act of spending the same cryptocurrency more than once.",
-        "c": " A blockchain with two separate chains.",
+        "c": "A blockchain with two separate chains.",
         "d": "A technique to speed up transaction processing"
       },
-
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -21,19 +20,50 @@
         "c": "By using decentralized consensus mechanisms.",
         "d": "By encrypting all transactions."
       },
-
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
       "question": "What does the term 'immutable' mean in the context of blockchain?",
       "answers": {
-        "a": " Easily altered or changed.",
+        "a": "Easily altered or changed.",
         "b": "Unable to be changed or modified once recorded.",
-        "c": "Subject to constant updates and revisions..",
-        "d": "Permanently deleted from the blockchain.."
+        "c": "Subject to constant updates and revisions.",
+        "d": "Permanently deleted from the blockchain."
       },
-
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the role of miners in a blockchain network?",
+      "answers": {
+        "a": "To design new cryptocurrencies.",
+        "b": "To verify and add transactions to the blockchain.",
+        "c": "To store all user private keys.",
+        "d": "To delete old transactions from the blockchain."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is a centralized database more vulnerable to double spending than a blockchain?",
+      "answers": {
+        "a": "It relies on a single point of control that can be hacked.",
+        "b": "It uses weaker encryption methods.",
+        "c": "It allows users to edit transactions freely.",
+        "d": "It processes transactions more slowly."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is a 'block' in a blockchain?",
+      "answers": {
+        "a": "A type of cryptocurrency wallet.",
+        "b": "A collection of verified transactions.",
+        "c": "A tool to encrypt user data.",
+        "d": "A limit on transaction speed."
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     }
