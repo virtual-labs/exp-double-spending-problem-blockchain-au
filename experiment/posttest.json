@@ -9,7 +9,6 @@
         "c": "The process of creating new blocks in a blockchain.",
         "d": "Storing cryptocurrency in a hardware wallet."
       },
-
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -18,23 +17,54 @@
       "answers": {
         "a": "Miners",
         "b": "Central Authority",
-        "c": " Validators",
+        "c": "Validators",
         "d": "Software Developers"
       },
-
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
       "question": "Which consensus mechanism makes it computationally expensive to attempt double spending in a blockchain?",
       "answers": {
-        "a": " Proof of Concept (PoC)",
-        "b": "Proof of Stake (PoS",
-        "c": " Proof of Work (PoW)",
+        "a": "Proof of Concept (PoC)",
+        "b": "Proof of Stake (PoS)",
+        "c": "Proof of Work (PoW)",
         "d": "Proof of Authority (PoA)"
       },
-
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does a centralized system typically prevent double spending?",
+      "answers": {
+        "a": "By relying on a trusted third party to validate transactions.",
+        "b": "By distributing transaction records across multiple nodes.",
+        "c": "By requiring miners to solve complex puzzles.",
+        "d": "By encrypting all user wallets."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What feature of blockchain ensures that transactions cannot be altered once confirmed?",
+      "answers": {
+        "a": "High transaction fees",
+        "b": "Immutability",
+        "c": "Centralized control",
+        "d": "Fast processing speed"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why does double spending not occur in a properly functioning blockchain?",
+      "answers": {
+        "a": "Because transactions are only processed once a day.",
+        "b": "Because the network agrees on a single transaction history.",
+        "c": "Because users are limited to one transaction at a time.",
+        "d": "Because all transactions are stored offline."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
