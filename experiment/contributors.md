@@ -1,15 +1,8 @@
-EMPTY
+### Contributors
 
-<!-- Remove all lines above this line before making changes to the file -->
-
-### Subject Matter Experts
-
-| SNo. | Name | Email | Institute | ID  |
-| :--: | :--: | :---: | :-------: | :-: |
-|  1   | name | email | institute | id  |
-
-### Developers
-
-| SNo. |    Name     |          Email           |               Institute                | ID  |
-| :--: | :---------: | :----------------------: | :------------------------------------: | :-: |
-|  1   | Arun Prabhu | arunprabhu@am.amrita.edu | Amrita vishwa vidhyapeetham,amritapuri | id  |
+| SNo. |        Name        |            Email            |         Institute          |
+| :--: | :----------------: | :-------------------------: | :------------------------: |
+|  1   | Dr. Priyanka Kumar |  k_priyanka@cb.amrita.edu   | Amrita Vishwa Vidyapeetham |
+|  2   |    Pavithra S P    |  pavithrasp@am.amrita.edu   | Amrita Vishwa Vidyapeetham |
+|  3   |   Arun Prabhu K    |  arunprabhu@am.amrita.edu   | Amrita Vishwa Vidyapeetham |
+|  4   |  Akash Krishna M   | akashkrishnam@am.amrita.edu | Amrita Vishwa Vidyapeetham |

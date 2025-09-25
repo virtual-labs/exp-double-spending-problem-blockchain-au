@@ -1,158 +1,106 @@
-<u><h3>Procedure</h3></u>
 
 
+
+<p>
+In this interactive transaction simulation, users can experience how blockchain prevents the problem of double spending. 
+The app allows users to initiate a transaction by selecting a recipient and entering the amount to be sent. 
+As the process runs, a step-by-step three-dimensional animation illustrates how the blockchain network ensures security, 
+while highlighting the difference from traditional centralized systems. The simulation demonstrates that while a centralized 
+system is vulnerable to double spending, blockchain prevents it through transparency, immutability, and consensus.
+</p>
 
 <div>
-<h4>Centralized Database Double-Spending</h4>
+
 
 <ol>
 
 <li>
-<p>Please refer to the right-hand section of the interface to start the simulation </p></li>
-
-<li><p>Within the "Double Spending" sidebar, you will find two options: "Centralized" and "Blockchain."</p></li>
-
-<li><p>By default, the "Centralized" option is active. Below the "Centralized" option, you will find a section or text box that provides the definition of double spending within a centralized database.
-Read the definition to understand how double spending occurs in a centralized system.
-</p>
- <div style="text-align: center;">
- <img src="images/1.png" width="50%" alt="centralized">
- </div>
- <p>
- Click the play button to start the simulation.
- </p>
-</li>
-
-<li>
 <p>
- On the main interface, you will find two input fields labeled "Recipient" and "Amount."
- </p>
-</li>
- <div style="text-align: center;">
- <img src="images/2.png" alt="centralized"  width="50%">
- </div>
-<li>
-<p>
-Click on the "Recipient" input field to select or input the name or address of the intended receiver.
+The simulation begins by setting up two chains for comparison: 
+an <b>honest chain</b> with more miners (faster growth) and an <b>attacker’s secret chain</b> with fewer miners (slower growth). 
+Click on the <b>Go to Simulation</b> button to start.
 </p>
-</li>
-
-<li>
-<p>
-Click on the "Amount" input field to specify the exact amount you wish to send in the transaction.
-</p>
-</li>
-
-<li>
-<p>
-Ensure the recipient's information and the transaction amount are accurately entered.
-</p>
-</li>
-
-<li>
-<p>
-After confirming the details, click the "Send" button to initiate the transaction.
-</p>
-</li>
-<li>
-<p>
-Upon initiating the transaction, the left side three-dimensional animation initializes. The animation should display user-specific information, including the user's name, balance, and the recipient's name and balance.
- <div style="text-align: center;">
- <img src="images/3.png" alt="centralized"  width="80%">
- </div>
-</p>
-</li>
-<li><p>
-Below the animation, users can view a step-by-step breakdown of how the bank processes a demand draft. Within the instruction panel, users can access a "Cancel Request" button, allowing them to observe in real-time how double spending unfolds in the context of a bank's demand draft process, providing insights into potential vulnerabilities in centralized systems.
-<div style="text-align: center;">
- <img src="images/4.png" alt="centralized"  width="80%">
- </div>
-</p></li>
-
-</ol>
+<div style="text-align:center;">
+<img src="images/1.png" alt="step-1">
 </div>
+</li>
 
-<h4>Blockchain Database Double-Spending</h4>
-
-<div>
-<ol>
 <li>
-<p>Look for the sidebar labeled "Double Spending" on the right side of the app interface </p></li>
-
-<li><p>Within the "Double Spending" sidebar, you will find two options: "Centralized" and "Blockchain."</p></li>
-
-<li><p>Select the Blockchain option. Below the "Blockchain" option, you will find a section or text box that provides the definition of double spending within a Blockchain database.
-Read the definition to understand how double spending occurs in a blockchain system.
+<p>
+Enter an amount to send (must not exceed the attacker’s available balance).
 </p>
- <div style="text-align: center;">
- <img src="images/5.png" alt="blockchain"  width="50%">
- </div>
- <p>
- Click the play button to start the simulation.
- </p>
-</li>
-<li>
-<p>
-The four sections on the main interface, namely 3D animation, custom color, steps, and user account, provide a comprehensive and user-friendly experience for interacting with the application and gaining insights into the transaction process.
- </p>
- 
- <p><b>3D animation - </b>The 3D animation section visually illustrates to the user how double spending is prevented and managed within a blockchain system, enhancing their understanding of the technology's security features.
- <div style="text-align: center;">
- <img src="images/6.png" alt="blockchain"  width="50%">
- </div>
- </p>
- <p><b>Custom Color - </b>The "Custom Color" section features three input options that allow users to customize and change the colors of the blocks corresponding to the receiver, verifier, and sender, adding a personalized touch to the visualization of the transaction process.
- <div style="text-align: center;">
- <img src="images/8.png" alt="blockchain"  width="50%">
- </div>
- </p>
- <p><b>Steps - </b>
-The "steps" panel is designed to guide users through the intricate process of preventing double spending in a blockchain system
- <div style="text-align: center;">
- <img src="images/7.png" alt="blockchain"  width="50%">
- </div>
- </p>
-  <p><b>User Account - </b>
-<li>
-<p>
- On the main interface, you will find two input fields labeled "Recipient" and "Amount."
- </p>
+<div style="text-align:center;">
+<img src="images/2.png" alt="step-2">
+</div>
 </li>
 
 <li>
 <p>
-Click on the "Recipient" input field to select or input the name or address of the intended receiver.
+The transaction is now initiated.
 </p>
+<div style="text-align:center;">
+<img src="images/3.png" alt="step-3">
+</div>
 </li>
 
 <li>
 <p>
-Click on the "Amount" input field to specify the exact amount you wish to send in the transaction.
+Both honest miners and attacker’s miners begin solving the Proof-of-Work puzzle to mine their respective transactions. 
 </p>
+<div style="text-align:center;">
+<img src="images/4.png" alt="step-4">
+</div>
 </li>
 
 <li>
 <p>
-Ensure the recipient's information and the transaction amount are accurately entered.
+Initially, one of the honest miners solves the puzzle faster (shown in yellow) and successfully mines a block on the honest chain. 
 </p>
+<div style="text-align:center;">
+<img src="images/5.png" alt="step-5">
+</div>
 </li>
 
 <li>
 <p>
-After confirming the details, click the "Send" button to initiate the transaction.
+The honest chain adds the attacker–merchant transaction. Honest miners then continue to mine the next transactions on the chain. 
 </p>
+<div style="text-align:center;">
+<img src="images/6.png" alt="step-6">
+</div>
 </li>
- <div style="text-align: center;">
- <img src="images/9.png" alt="blockchain"  width="50%">
- </div>
- </p>
-</li>
+
+<li>
 <p>
-Upon initiating the transaction, the left side three-dimensional animation initializes.
- <div style="text-align: center;">
- <img src="images/10.png" alt="blockchain"  width="80%">
- </div>
+The merchant confirms the transaction after <b>four additional blocks</b> are added on top of the block containing the transaction 
+(confirmation depth).
 </p>
+<div style="text-align:center;">
+<img src="images/7.png" alt="step-7">
+</div>
 </li>
+
+<li>
+<p>
+Once this stage is complete, the <b>Reveal Secret Chain</b> button becomes active. 
+Clicking it reveals the attacker’s secret chain. 
+The blockchain network then compares the honest chain and the attacker’s chain using the <b>longest chain rule</b>.
+</p>
+<div style="text-align:center;">
+<img src="images/8.png" alt="step-8">
+</div>
+</li>
+
+<li>
+<p>
+The blockchain network selects the honest chain as the valid chain since it contains more blocks 
+and therefore represents more accumulated Proof of Work. 
+This proves that the attacker’s attempt to double spend has failed.
+</p>
+<div style="text-align:center;">
+<img src="images/9.png" alt="step-9">
+</div>
+</li>
+
 </ol>
 </div>
