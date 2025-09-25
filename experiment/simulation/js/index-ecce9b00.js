@@ -70104,7 +70104,7 @@ function Server(tt) {
     )
   );
 }
-useGLTF.preload("images/server.glb");
+useGLTF.preload("../images/server.glb");
 const Glowcube = ({ position: tt }) =>
   React.createElement(
     "mesh",
@@ -70266,7 +70266,7 @@ function Bank() {
 }
 function UserOne(tt) {
   const et = reactExports.useRef(),
-    { nodes: nt, materials: rt, animations: it } = useGLTF("images/user1.glb"),
+    { nodes: nt, materials: rt, animations: it } = useGLTF("../images/user1.glb"),
     { actions: st, names: ot } = useAnimations(it, et);
   return (
     reactExports.useEffect(() => {
@@ -70357,9 +70357,9 @@ function UserOne(tt) {
     )
   );
 }
-useGLTF.preload("images/user1.glb");
+useGLTF.preload("../images/user1.glb");
 function Office(tt) {
-  const { nodes: et, materials: nt } = useGLTF("images/Office.glb");
+  const { nodes: et, materials: nt } = useGLTF("../images/Office.glb");
   return React.createElement(
     "group",
     { ...tt, dispose: null },
@@ -70723,14 +70723,14 @@ function Office(tt) {
     )
   );
 }
-useGLTF.preload("images/Office.glb");
+useGLTF.preload("../images/Office.glb");
 const UserOneScene = ({ cpuPos: tt }) =>
   React.createElement(
     "group",
     null,
     React.createElement(Office, { cpuPos: tt })
   );
-useGLTF.preload("images/user2.glb");
+useGLTF.preload("../images/user2.glb");
 function useTheme() {
   const tt = useTheme$1(defaultTheme$1);
   return tt[THEME_ID] || tt;

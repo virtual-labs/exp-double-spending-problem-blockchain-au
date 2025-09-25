@@ -1,3 +1,3 @@
-### Aim of the experiment
 
-The main objectives of the trial are to explain how double spending works and how a centralized and blockchain database prevents double-spending.
+
+To simulate and practically observe how blockchain prevents the problem of double spending

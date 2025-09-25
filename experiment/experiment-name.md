@@ -1,1 +1,1 @@
-<h2>Comparing Double-Spending in Conventional Databases and Blockchain Environments</h2>
+<h2>Double Spending and Its Prevention in Blockchain</h2>
