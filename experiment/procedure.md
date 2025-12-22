@@ -1,6 +1,3 @@
-
-
-
 <p>
 In this interactive transaction simulation, users can experience how blockchain prevents the problem of double spending. 
 The app allows users to initiate a transaction by selecting a recipient and entering the amount to be sent. 
@@ -11,13 +8,12 @@ system is vulnerable to double spending, blockchain prevents it through transpar
 
 <div>
 
-
 <ol>
 
 <li>
 <p>
 The simulation begins by setting up two chains for comparison: 
-an <b>honest chain</b> with more miners (faster growth) and an <b>attacker’s secret chain</b> with fewer miners (slower growth). 
+an <b>honest chain</b> with more miners (faster growth) and an <b>sender’s secret chain</b> with fewer miners (slower growth). 
 Click on the <b>Go to Simulation</b> button to start.
 </p>
 <div style="text-align:center;">
@@ -25,18 +21,47 @@ Click on the <b>Go to Simulation</b> button to start.
 </div>
 </li>
 
-<li>
+<!-- <li>
 <p>
-Enter an amount to send (must not exceed the attacker’s available balance).
+Observe the sender with an initial balance and two recipients (Person A and Person B) with their balances.
 </p>
 <div style="text-align:center;">
-<img src="images/2.png" alt="step-2">
+<img src="images/intro.png" alt="step-3">
+</div>
+</li> -->
+
+<li>
+<p>
+Enter an amount to send (must not exceed the sender's available balance).
+</p>
+<div style="text-align:center;">
+<img src="images/intro.png" alt="step-2">
 </div>
 </li>
 
 <li>
 <p>
-The transaction is now initiated.
+Click “Send Money to Both” to send the same amount to both Person A and Person B.
+</p>
+<div style="text-align:center;">
+<img src="images/1.png" alt="step-3">
+</div>
+</li>
+
+<li>
+<p>
+Click “Prevent Double Spending →” to begin blockchain validation.
+</p>
+<div style="text-align:center;">
+<img src="images/2.png" alt="step-3">
+</div>
+</li>
+
+<li>
+
+<li>
+<p>
+Observe that the transaction is marked as waiting for confirmations.
 </p>
 <div style="text-align:center;">
 <img src="images/3.png" alt="step-3">
@@ -45,7 +70,7 @@ The transaction is now initiated.
 
 <li>
 <p>
-Both honest miners and attacker’s miners begin solving the Proof-of-Work puzzle to mine their respective transactions. 
+Both honest miners and secret’s miners begin solving the Proof-of-Work puzzle to mine their respective transactions. 
 </p>
 <div style="text-align:center;">
 <img src="images/4.png" alt="step-4">
@@ -57,37 +82,37 @@ Both honest miners and attacker’s miners begin solving the Proof-of-Work puzzl
 Initially, one of the honest miners solves the puzzle faster (shown in yellow) and successfully mines a block on the honest chain. 
 </p>
 <div style="text-align:center;">
-<img src="images/5.png" alt="step-5">
+<img src="images/5minor.png" alt="step-5">
 </div>
 </li>
 
-<li>
+<!-- <li>
 <p>
-The honest chain adds the attacker–merchant transaction. Honest miners then continue to mine the next transactions on the chain. 
+The honest chain adds the attacker–merchant transaction. Honest miners then continue to mine the next transactions on the chain.
 </p>
 <div style="text-align:center;">
 <img src="images/6.png" alt="step-6">
 </div>
-</li>
+</li> -->
 
 <li>
 <p>
-The merchant confirms the transaction after <b>four additional blocks</b> are added on top of the block containing the transaction 
+The person A confirms the transaction after <b>four additional blocks</b> are added on top of the block containing the transaction 
 (confirmation depth).
 </p>
 <div style="text-align:center;">
-<img src="images/7.png" alt="step-7">
+<img src="images/confirmation.png" alt="step-7">
 </div>
 </li>
 
 <li>
 <p>
 Once this stage is complete, the <b>Reveal Secret Chain</b> button becomes active. 
-Clicking it reveals the attacker’s secret chain. 
-The blockchain network then compares the honest chain and the attacker’s chain using the <b>longest chain rule</b>.
+Clicking it reveals the sender’s secret chain. 
+The blockchain network then compares the honest chain and the secret’s chain using the <b>longest chain rule</b>.
 </p>
 <div style="text-align:center;">
-<img src="images/8.png" alt="step-8">
+<img src="images/compare.png" alt="step-8">
 </div>
 </li>
 
@@ -95,10 +120,10 @@ The blockchain network then compares the honest chain and the attacker’s chain
 <p>
 The blockchain network selects the honest chain as the valid chain since it contains more blocks 
 and therefore represents more accumulated Proof of Work. 
-This proves that the attacker’s attempt to double spend has failed.
+This proves that the sender’s attempt to double spend has failed.
 </p>
 <div style="text-align:center;">
-<img src="images/9.png" alt="step-9">
+<img src="images/final.png" alt="step-9">
 </div>
 </li>
 
