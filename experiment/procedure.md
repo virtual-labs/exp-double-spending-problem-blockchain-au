@@ -17,7 +17,7 @@ an <b>honest chain</b> with more miners (faster growth) and an <b>sender’s sec
 Click on the <b>Go to Simulation</b> button to start.
 </p>
 <div style="text-align:center;">
-<img src="images/1.png" alt="step-1">
+<img src="images/start.png" alt="step-1">
 </div>
 </li>
 
@@ -70,7 +70,7 @@ Observe that the transaction is marked as waiting for confirmations.
 
 <li>
 <p>
-Both honest miners and secret’s miners begin solving the Proof-of-Work puzzle to mine their respective transactions. 
+Both honest miners and secret miners begin solving the Proof-of-Work puzzle to mine their respective transactions. 
 </p>
 <div style="text-align:center;">
 <img src="images/4.png" alt="step-4">
