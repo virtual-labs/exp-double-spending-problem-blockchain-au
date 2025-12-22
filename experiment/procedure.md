@@ -58,8 +58,6 @@ Click “Prevent Double Spending →” to begin blockchain validation.
 </li>
 
 <li>
-
-<li>
 <p>
 Observe that the transaction is marked as waiting for confirmations.
 </p>
