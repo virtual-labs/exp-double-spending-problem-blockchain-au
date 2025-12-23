@@ -28,7 +28,22 @@ Thus, blockchain effectively prevents double spending by ensuring transparency, 
 <b><p>How Blockchain Prevents Double Spending</p></b>
 
 <p>
-Blockchain prevents double spending by leveraging its decentralized architecture and consensus protocols. Each transaction is cryptographically linked to previous blocks, creating an immutable ledger. Once a transaction is confirmed and added to the chain, altering it would require re-mining all subsequent blocks, which demands enormous computational resources.</p>
+Double spending means attempting to use the same digital money more than once. Blockchain prevents this by maintaining a shared, secure, and transparent ledger of all transactions. When a transaction is created, it is broadcast to multiple computers in the network known as miners. These miners verify the transaction and include it in a block. Each block is cryptographically linked to the previous block, forming a continuous chain called the blockchain. Once a transaction is recorded in a block and added to the blockchain, altering it becomes extremely difficult.
+</p>
+
 <p>
-To illustrate this, consider the concept of <b>Honest Chain vs Secret Chain</b> in Proof of Work systems. When a transaction is broadcast, honest miners include it in the public chain and continue mining on top of it. Meanwhile, a malicious sender may attempt to create a <b>secret chain </b> excluding the original transaction, hoping to replace the honest chain later. However, the network applies the <b>Longest Chain Rule</b>, which accepts the chain with the most accumulated Proof of Work as valid. Since the honest chain has more miners and grows faster, the attacker’s secret chain rarely overtakes it. As more blocks are added (confirmation depth), the probability of a successful double spend becomes astronomically low unless the attacker controls more than 50% of the network’s mining power (a 51% attack).
+In Proof of Work–based systems, two types of chains may exist:
+</p>
+
+<p>
+<b>Honest Chain:</b> The public blockchain where honest miners include valid transactions.<br>
+<b>Secret Chain:</b> A private chain that a dishonest user may attempt to build by excluding a transaction in order to spend the same money again.
+</p>
+
+<p>
+The network follows the <b>Longest Chain Rule</b>, meaning the chain with the highest accumulated computational work and the most blocks is considered valid. Since most miners behave honestly, the honest chain grows faster than any secret chain.
+</p>
+
+<p>
+As additional blocks are added after a transaction, the transaction gains more confirmations and becomes increasingly secure. The probability of successfully performing a double-spending attack decreases rapidly.
 </p>
