@@ -47,3 +47,15 @@ The network follows the <b>Longest Chain Rule</b>, meaning the chain with the hi
 <p>
 As additional blocks are added after a transaction, the transaction gains more confirmations and becomes increasingly secure. The probability of successfully performing a double-spending attack decreases rapidly.
 </p>
+
+<b><p>Double Spending Problem in Blockchain</p></b>
+
+<p> Double spending occurs when a malicious sender attempts to spend the same cryptocurrency more than once by creating conflicting transactions. In a typical attack scenario, the attacker first sends a legitimate transaction to a merchant, which is broadcast to the network and included in the public blockchain. At the same time, the attacker secretly creates another transaction using the same coins and sends it to their own wallet or another address. </p>
+
+<b><p>Role of the Honest Chain</p></b>
+
+<p> The honest chain is maintained by the majority of miners who follow the blockchain protocol rules. When the initial transaction is broadcast, honest miners verify it and include it in a block. They continue mining subsequent blocks on top of this chain. As more blocks are added, the transaction gains confirmation depth (for example, six confirmations in Bitcoin), making it increasingly difficult to reverse. Because most of the network’s computational power belongs to honest miners, the honest chain grows faster. </p>
+
+<b><p>Role of the Secret Chain</p></b>
+
+<p> In contrast, the attacker may attempt to build a secret chain privately. This secret chain starts from the same previous block as the honest chain but deliberately excludes the honest transaction. The attacker mines blocks in private, hoping to eventually make the secret chain longer than the honest chain. If the attacker succeeds and releases the longer secret chain, the network may accept it according to the longest chain rule, thereby invalidating the honest transaction. However, this attack is only feasible if the attacker controls a majority of the network’s total mining power. </p>
