@@ -1,4 +1,4 @@
-## References
+
 
 1. [A Review on Double Spending Problem in Blockchain](https://ieeexplore.ieee.org/document/10183579)
 
