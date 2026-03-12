@@ -1,0 +1,1 @@
+To demonstrate how blockchain prevents double spending through transparency, immutability, and consensus by comparing an honest chain with more miners (faster growth) and a secret chain with fewer miners (slower growth) against centralized systems.

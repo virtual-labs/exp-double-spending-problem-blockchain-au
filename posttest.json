@@ -1,0 +1,41 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is double spending in the context of blockchain?",
+      "answers": {
+        "a": "Sending the same cryptocurrency to two different recipients simultaneously.",
+        "b": "Validating transactions in a blockchain.",
+        "c": "The process of creating new blocks in a blockchain.",
+        "d": "Storing cryptocurrency in a hardware wallet."
+      },
+
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a blockchain, which entity is responsible for verifying and confirming transactions?",
+      "answers": {
+        "a": "Miners",
+        "b": "Central Authority",
+        "c": " Validators",
+        "d": "Software Developers"
+      },
+
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which consensus mechanism makes it computationally expensive to attempt double spending in a blockchain?",
+      "answers": {
+        "a": " Proof of Concept (PoC)",
+        "b": "Proof of Stake (PoS",
+        "c": " Proof of Work (PoW)",
+        "d": "Proof of Authority (PoA)"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
